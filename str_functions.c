@@ -76,10 +76,10 @@ char *_strtoky(char *s, char *d)
 			return (s);
 		}
 		else if (_sch(d, s[i]) == 1)
-		{
-			j++;
+					j++;
 			i++;
 		}
 	}
 	return (NULL);
 }
+
